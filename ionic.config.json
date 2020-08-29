@@ -1,0 +1,7 @@
+{
+  "name": "RoadTrip",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
