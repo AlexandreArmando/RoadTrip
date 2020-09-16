@@ -20,5 +20,11 @@
       </ion-select>
     </ion-col>
   </ion-row>
+  <ion-calendar [(ngModel)]='date'
+    (onSelect)='onSelect($event)'
+    [options]='calendarOptions'
+    [type]='type'
+    [format]="'YYYY-MM-DD'">
+  </ion-calendar>
   
 </ion-content>

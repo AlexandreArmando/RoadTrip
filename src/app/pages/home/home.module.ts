@@ -8,12 +8,15 @@ import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
 
+import { CalendarModule } from 'ion2-calendar';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    CalendarModule
   ],
   declarations: [HomePage]
 })
